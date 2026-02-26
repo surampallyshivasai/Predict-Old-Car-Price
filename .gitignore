@@ -1,0 +1,41 @@
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Model Binaries (large files — regenerate via train.py) ────────────────────
+models/*.pkl
+models/*.joblib
+
+# ── EDA / Plot Outputs ────────────────────────────────────────────────────────
+notebooks/*.png
+notebooks/*.jpg
+notebooks/model_results.csv
+
+# ── Data (optional — comment out if you WANT to push the dataset) ─────────────
+# data/car_data.csv
+
+# ── OS / IDE ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ── Logs & misc ───────────────────────────────────────────────────────────────
+*.log
+dist/
+build/
+*.egg-info/
