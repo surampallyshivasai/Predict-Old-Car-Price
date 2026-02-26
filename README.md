@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Old Car Price Prediction
 
 <p align="center">
@@ -177,3 +177,4 @@ This project is for **educational purposes** only.
 =======
 # Predict-Old-Car-Price
 >>>>>>> 4a7fb483f56807f052c3c990811a02ec1f795b7c
+
